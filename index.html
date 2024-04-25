@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bethesda Game Studios</title>
+<style>
+body {
+background-color: #ADD8E6;
+}
+
+header {
+background-color: #1E90FF;
+padding: 20px;
+}
+
+header button {
+background-color: #00BFFF;
+border: none;
+color: white;
+padding: 10px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+}
+
+h1 {
+color: white;
+text-align: center;
+}
+
+#games {
+display: flex;
+}
+
+#games img {
+width: 300px;
+margin: 20px;
+}
+
+#games p {
+margin: 20px;
+text-align: center;
+}
+
+footer {
+background-color: #1E90FF;
+color: white;
+text-align: center;
+padding: 20px;
+}
+
+label {
+margin-right: 10px;
+}
+
+input {
+padding: 5px;
+}
+
+textarea {
+width: 200px;
+height: 100px;
+}
+
+#submit {
+background-color: #00BFFF;
+border: none;
+color: white;
+padding: 10px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Bethesda Game Studios</h1>
+<button>Home</button>
+<button>Games</button>
+<button>History</button>
+</header>
+
+<div id="games">
+<img src="skyrim.jpg">
+<p>The Elder Scrolls V: Skyrim</p>
+</div>
+
+<div id="games">
+<img src="fallout4.jpg">
+<p>Fallout 4</p>
+</div>
+
+<footer>
+<p>&copy; 2023 Bethesda Game Studios</p>
+</footer>
+
+<form>
+<label for="name">Name:</label>
+<input type="text" id="name"><br><br>
+
+<label for="email">Email:</label>
+<input type="email" id="email"><br><br>
+
+<label for="message">Message:</label>
+<textarea id="message"></textarea><br><br>
+
+<input type="submit" value="Submit" id="submit">
+</form>
+
+</body>
+</html>
